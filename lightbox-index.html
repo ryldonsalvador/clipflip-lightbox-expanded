@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>External Page</title>
+    <link rel="stylesheet" href="./styles/lightbox-styles.css" />
+    <!-- Splide.js CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@splidejs/splide@4.1.3/dist/css/splide.min.css"
+    />
+  </head>
+  <body>
+    <div class="lightbox-main-container">
+      <div id="wrapper">
+        <div class="first">
+          <div class="logo" id="logo">
+            <img src="../img/volkswagen-logo.png" />
+          </div>
+          <h3>The ID.7 Tourer</h3>
+          <p>
+            Spacious and wonderfully electric. Lots of space. Lots of comfort.
+            Lots of freedom.
+          </p>
+        </div>
+        <div id="content">
+          <img id="poster" src="./img/thumbnail.jpg" alt="Loading..." />
+          <iframe
+            id="iframe"
+            src="https://app.clipflip.video/view/CEqowQzV7wWnTK8l1NIr"
+            frameborder="0"
+            allowfullscreen
+            style="opacity: 0"
+          ></iframe>
+        </div>
+        <div class="slider-container">
+          <div class="splide facilities-carousels">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide no-margin facilities-slide-images">
+                  <img src="../external/img/carousel-1.webp" alt="Image 1" />
+                </li>
+                <li class="splide__slide no-margin facilities-slide-images">
+                  <img src="../external/img/carousel-2.webp" alt="Image 2" />
+                </li>
+                <li class="splide__slide no-margin facilities-slide-images">
+                  <img src="../external/img/carousel-3.webp" alt="Image 3" />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="charging">
+          <h3>Charging at home on the go</h3>
+          <div class="slider-container">
+            <div class="splide charging-carousels">
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide no-margin facilities-slide-images">
+                    <img src="../external/img/charging-1.webp" alt="Image 1" />
+                    <p>To the loading time simulator</p>
+                  </li>
+                  <li class="splide__slide no-margin facilities-slide-images">
+                    <img src="../external/img/charging-2.webp" alt="Image 2" />
+                    <p>To the range simulator</p>
+                  </li>
+                  <li class="splide__slide no-margin facilities-slide-images">
+                    <img src="../external/img/charging-3.webp" alt="Image 3" />
+                    <p>To the route planner</p>
+                  </li>
+                  <li class="splide__slide no-margin facilities-slide-images">
+                    <img src="../external/img/charging-4.webp" alt="Image 3" />
+                    <p>To the cost simulator</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"
+    ></script>
+    <script src="./scripts/external-script.js"></script>
+    <!-- Include GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script type="text/javascript">
+      var clickTag = "https://www.google.com";
+    </script>
+  </body>
+</html>
